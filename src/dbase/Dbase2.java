@@ -32,7 +32,7 @@ public class Dbase2 {
         //光标移动到最后一行
         System.out.println("移动光标到最后一行...");
         rs.last();
-         
+        
         //提取最后一行数据
         int id  = rs.getInt("ID");
         String name = rs.getString("Name");
